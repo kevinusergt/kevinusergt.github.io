@@ -5,12 +5,11 @@
     font-family:"Ubuntu", sans-serif;
 }
 body{
-    background-color: whitesmoke;
+    background-color: #0c0c16;
 }
 
 header{
     display: flex;
-    background-color: rgb(244, 241, 241);
     backdrop-filter: blur(5%);
     justify-content: space-between;
     padding: 1%;
@@ -20,9 +19,10 @@ header{
 }
 .logo{
     font-size: 30px;
+    color: rgb(174, 171, 171);
 }
 .logo span{
-    color: rgb(34, 34, 219);
+    color: #7b8afe;
     text-shadow: 2px 1px 3px;
     font-weight: 100px;
 }
@@ -35,39 +35,44 @@ header{
 .links a{
     text-decoration: none;
     font-size: 1.3rem;
-    color: black;
+    color: rgb(174, 171, 171);
 }
 .links a:hover{
-    color: rgb(0, 41, 244);
+    color: white;
 }
 
 .aboutme{
-    height: 35vh;
+    color: white;
+    height: 300px;
     display: flex;
-    gap: 12%;
+    gap: 6%;
+    box-shadow: 0 2px 1px #7b8afe;
 }
 .title{
     padding: 0 8%;
-    max-width: 50%;
+    margin: 2% 0 0 0;
+    max-width: 60%;
     max-height: 60%;
     font-size: 20px;
 }
 .title h1{
     font-size: 3rem;
+    color: #7b8afe;
+    text-shadow: 1px 3px 5px #7b8afe;
 }
 .image img{
-    width: 70%;
-    height: 100%;
-
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: 0 0 0 0;
 }
 .projects{
-    height: 35vh;
+    height: 400px;
+    width: 60%;
     padding: 1% 2%;
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgb(219, 216, 213, 0.3);
-    border-radius: 10%;
+    margin: 2% 5% 0 5%;
+    box-shadow: 0 0 20px #7b8afe;
+    color: #7b8afe;
 }
 .protitle{
     height: 50px;
@@ -77,14 +82,65 @@ header{
 }
 .indproject{
     justify-content: space-between;
-    background-color: aquamarine;
-    height: 50%;
+    height: 60%;
     padding: 2%;
 
 }
 #inventary{
     text-align: center;
-    
+    border-radius: 20%;
     margin: 0 80% 0 0;
-    background-color: cadetblue;
+    padding: 5% 0 0 0;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #7b8afe;
+}
+button{
+    background-color: #7b8afe;
+    color: white;
+    border: none;
+    box-shadow: 0 0 8px #7b8afe;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #5a67d8;
+}
+#contact{
+    box-sizing: border-box;
+    color: #7b8afe;
+    height: 300px;
+    padding: 1% 0 0 0;
+    margin: 5% 0 0 0;
+    justify-items: center;
+}
+.form{
+    padding: 2% 0 0 0;
+    justify-items: center;
+    box-shadow: 0 0 10px #7b8afe;
+    border-radius: 20%;
+    height: 300px;
+    width: 20%;
+}
+input, textarea{
+    border: none;
+    background-color: #0c0c16;
+    border-bottom: 1px solid #7b8afe;
+    color: white;
+}
+textarea{
+    width: 100%;
+}
+input::placeholder,textarea::placeholder{
+    color: white;
+}
+footer{
+    color: white;
+    margin: 6% 0 0 0;
+    padding: 3% 0 0 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
