@@ -19,15 +19,15 @@
         <div class="nav-bar">
             <ul class="links">
                 <li><a href="#aboutme">About me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="./src/views/mascotas.html">Pets</a></li>
             </ul>
         </div>
 
     </header>
     <main>
-        <section class="aboutme">
+        <section id="aboutme">
             <div class="title">
                 <h1>Greetings to all</h1><br>
                 <p>Hello, my name is Kevin Villalobos Ruiz, I am 20 years old, and I am from Barranquilla. I am
@@ -37,44 +37,23 @@
                     my logic.</p>
             </div>
             <div class="image">
-                <img src="/public/icons/3135768.webp" alt="Profile icon">
+                <img src="./public/icons/sukuna.webp" alt="Profile icon">
 
             </div>
-        </section>
-        <section class="projects">
-            <div class="protitle">
-                <h2>Projects</h2>
-            </div>
-            <section class="indproject">
-                    <div id="inventary">
-                        <h5>Inventary management</h5><br>
-                        <a href="https://github.io" target="_blank"><button type="button">Go to project</button></a>
-
-                </div>
-            </section>
         </section>
         <section id="contact">
             <div class="title">
                 <h2>Contact</h2>
-                <br>
             </div>
             <div class="form">
-               <form action="">
-                <div>
-                    <input type="text" name="name" required placeholder="Nombre">
-                </div>
-                <div>
-                    <input type="email" name="email" required placeholder="Email">
-                </div>
-                <div>
-                    <textarea name="message" required placeholder="Send me a message"></textarea>
-                </div>
-                <br>
-                <button type="submit">Enviar Mensaje</button>
-               </form>
+                <form class="contact-form">
+                    <input type="email" placeholder="Enter your email">
+                    <input type="text" placeholder="Enter your name">
+                    <textarea placeholder="Enter your message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
-
     </main>
 
     <footer>
