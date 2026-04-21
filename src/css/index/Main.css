@@ -8,7 +8,7 @@
     align-items: center;
     gap: 6rem;
 }
-#aboutme .title h1{
+.title h1{
     color: #3f38b9;
     text-shadow: 3px 2px 4px rgba(63, 56, 185, 0.5);
     font-size: 1.3rem;
@@ -17,7 +17,7 @@
 }
 .title p{
     text-align: justify;
-    font-size: .75rem;
+    font-size: .9rem;
 }
 .image{
     border-radius: 50%;
@@ -53,31 +53,32 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .project-card{
-    min-width: 40vh;
-    max-width: 40vh;
+    height: 100%;
+    width: 100%;
     display: flex;
+    gap: 1.2rem;
     flex-direction: column;
     align-items: center;
     background-color: #1a1a2e;
     border-radius: 10px;
     padding: 3rem 0 1rem 0;
     box-shadow: 0 0 10px rgba(60, 59, 59, 0.5);
-    min-height: 30vh;
 }
 .content{
-    font-size: 1.5rem;
+    font-size: .9rem;
 }
 .project-card a{
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    text-align: center;
     margin-top: auto;
-}
-.project-card button{
-    background-color: white;
-    min-width: 7rem;
-    min-height: 3rem;
+    background-color:whitesmoke;
 }
 
 .project-card img{

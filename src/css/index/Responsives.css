@@ -1,18 +1,60 @@
 
 @media (min-width: 576px) {
-    body{
-        background-color: red;
+
+    header{
+        justify-content: space-between;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .links{
+        gap: 20px;
+    }
+    .nav-bar a{
+        font-size: 1.2rem;
+    }
+    .image img{
+        margin-top:3rem;
+    }
+     .title h1{
+        font-size: 2rem;
+    }
+    .title p{
+        font-size: 1.2rem;
+    }
+    .project-card a{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media (min-width: 768px) {
-    body{
-        background-color: blue;
+
+    header{
+        padding: 1rem 9%;
     }
+    .logo{
+        font-size: 1.8rem;
+    }
+    .nav-bar a{
+        font-size: 1.3rem;
+    }
+    .image img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .title h1{
+        font-size: 3rem;
+    }
+    
 }
 @media (min-width: 992px) {
     body{
         background-color: green;
     }
+    
 }
 @media (min-width: 1200px) {
     body{
