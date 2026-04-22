@@ -2,16 +2,17 @@ header{
     background-color:transparent;
     backdrop-filter: blur(5px);
     display: flex;
-    justify-content: flex-start;
     gap: 50px;
+    flex-direction: column;
     align-items: center;
     z-index: 100;
-    position: fixed;
+    position: relative;
     width: 100%;
-    padding: 1rem 3%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 1%;
 }
 .logo{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 span{
@@ -20,18 +21,19 @@ span{
     border-bottom: 2px solid #3f38b9;
 }
 .links{
-    gap: 8px;
+    gap: 1rem;
+    font-size: 1.2rem;
     display: flex;
+    flex-direction: column;
     list-style: none;
 }
 .nav-bar a{
     color: rgb(161, 158, 158);
-    font-size: 0.8rem;
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
 .nav-bar a:hover{
-    color: white;
+    color:var(--fontColor);
     border-bottom: 3px solid white;
 }

@@ -1,12 +1,16 @@
+:root{
+    --bodyBackgroundColor: #0c0c16;
+    --fontColor: white;
+    --fontFamily:"Ubuntu", sans-serif;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
-    font-family:"Ubuntu", sans-serif;
+    font-family: var(--fontFamily);
 }
-
 html{
     scroll-behavior: smooth;
 }
