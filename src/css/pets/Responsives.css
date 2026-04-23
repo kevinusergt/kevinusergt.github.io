@@ -1,28 +1,28 @@
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
     body{
         background-color: red;
     }
 }
 @media (min-width: 768px) {
-    body{
-        background-color: blue;
-    }
+    .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
 }
 @media (min-width: 992px) {
-    body{
-        background-color: green;
-    }
+    .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
 }
 @media (min-width: 1200px) {
-    body{
-        background-color: purple;
-    }
+    .grid-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
 }
 @media (min-width: 1400px) {
-    body{
-        background-color: orange;
-    }
-}
+    .grid-container {
+                grid-template-columns: repeat(5, 1fr);
+            }
+} */
 
 

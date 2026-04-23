@@ -1,200 +1,313 @@
-
 @media (min-width: 576px) {
 
-    header{
+    header {
         justify-content: space-between;
     }
-    .logo{
+
+    .logo {
         font-size: 1.5rem;
     }
-    .links{
+
+    .links {
         gap: 20px;
     }
-    .nav-bar a{
+
+    .nav-bar a {
         font-size: 1.2rem;
     }
-    .image img{
-        margin-top:3rem;
+
+    .image img {
+        margin-top: 3rem;
     }
-     .title h1{
+
+    .title h1 {
         font-size: 2rem;
     }
-    .title p{
+
+    .title p {
         font-size: 1.2rem;
     }
-    .project-card a{
+
+    .project-card a {
         height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 }
+
 @media (min-width: 768px) {
 
-    header{
+    header {
         padding: 1rem 9%;
     }
-    .logo{
+
+    .logo {
         font-size: 1.8rem;
     }
-    .nav-bar a{
+
+    .nav-bar a {
         font-size: 1.6rem;
     }
-    .title p{
+
+    .title p {
         font-size: 1.3rem;
     }
-    .image img{
+
+    .image img {
         width: 350px;
         height: 250px;
     }
-    .content{
+
+    .content {
         font-size: 1.2rem;
     }
 
-    .title h1{
+    .title h1 {
         font-size: 3rem;
     }
-    .form{
+
+    .form {
         width: 50%;
     }
-    input,textarea{
+
+    input,
+    textarea {
         font-size: 1.2rem;
         width: 100%;
         height: 4rem;
     }
-    button{
+
+    button {
         font-size: 1.2rem;
     }
-    
+
 }
+
 @media (min-width: 992px) {
-    header{
+    header {
+        position: fixed;
         flex-direction: row;
         width: 100%;
-        height: 8rem;
+        padding: 1rem 5%;
     }
-    .links{
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .links {
         flex-direction: row;
-        gap: 2rem;
+        gap: 1.2rem;
     }
-    .links a{
-        font-size: 1.9rem;
+
+    .links a {
+        font-size: 1.2rem;
     }
-    .title h1{
-        font-size: 3rem;
+
+    .title h1 {
+        font-size: 2rem;
     }
-    .title p{
-        font-size: 1.7rem;
+
+    .title p {
+        font-size: 1.3rem;
     }
-    .content{
-        width: 40%;
+
+    #aboutme {
+        height: 40rem;
+        flex-direction: row-reverse;
+        gap: 3rem;
     }
-    .content img{
+
+    .image img {
+        margin: 0;
+    }
+    #projects {
+        padding: 4rem 4%;
+    }
+
+    .projects-flex {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .project-card {
+        width: 30%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
-        height: 20rem;
+        padding: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .content-img img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .card-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        width: 33%;
+        height: 1.8rem;
+    }
+
+    .card-links a {
+        font-size: 0.7rem;
+        width: 100%;
+        margin: 0;
+        color: #1a1a2e;
+    }
+
+
+    #contact {
+        height: 40rem;
     }
 }
+
 @media (min-width: 1400px) {
-   .logo{
-    font-size: 2rem;
-   }
-   #aboutme{
-    flex-direction: row-reverse;
-    gap: 4rem;
-   }
-   .title{
-    width: 80%;
-   }
-    .image{
-    display: flex;
-    justify-content: center;
-    height: 30rem;
-    width: 60%;
-   }
-    .image img{
-    margin: 0;
-    width: 90%;
-    height: auto;
-   }
-   .projects-flex{
-    flex-direction: row;
-    flex-wrap: nowrap;
-   }
-   .project-card{
-    width: 33%;
-   }
-   .content{
-    width: 70%;
-   }
-   input,textarea{
-    width: 60%;
-    height: 3rem;
-   }
-   button{
-    width: 30%;
-    font-size: 1rem;
-   }
-   #contact{
-    height: 30rem;
-   }
-}
-@media (min-width: 2560px) {
-    .logo{
-        font-size: 3.3rem;
+    .logo {
+        font-size: 2rem;
     }
-    .links a{
-        font-size: 3rem;
+
+    #aboutme {
+        flex-direction: row-reverse;
+        gap: 4rem;
     }
-    #aboutme{
-        height: 70rem;
+
+    .title {
+        width: 80%;
     }
-    .title h1{
-        font-size: 7rem;
+
+    .image {
+        display: flex;
+        justify-content: center;
+        height: 30rem;
+        width: 60%;
     }
-    .title p{
-        font-size: 2.3rem;
+
+    .image img {
+        margin: 0;
+        width: 90%;
+        height: auto;
     }
-    .title h2{
-        font-size: 3.2rem;
-    }
-    #projects{
-        padding: 10rem 9%;
-    }
-    .projects-flex{
+
+    .projects-flex {
+        flex-direction: row;
         flex-wrap: nowrap;
     }
-    .project-card{
+
+    .project-card {
+        width: 33%;
+    }
+
+    .content {
+        width: 70%;
+    }
+
+    input,
+    textarea {
+        width: 60%;
+        height: 3rem;
+    }
+
+    button {
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    #contact {
+        height: 30rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .logo {
+        font-size: 3.3rem;
+    }
+
+    .links a {
+        font-size: 3rem;
+    }
+
+    #aboutme {
+        height: 70rem;
+    }
+
+    .title h1 {
+        font-size: 7rem;
+    }
+
+    .title p {
+        font-size: 2.3rem;
+    }
+
+    .title h2 {
+        font-size: 3.2rem;
+    }
+
+    #projects {
+        padding: 10rem 9%;
+    }
+
+    .projects-flex {
+        flex-wrap: nowrap;
+    }
+
+    .project-card {
         width: 33%;
         height: 40rem;
     }
-    .content{
+
+    .content {
         width: 70%;
         font-size: 1.6rem;
 
     }
-    .content img{
+
+    .content-img img {
         width: 100%;
     }
-    .card-links{
+
+    .card-links {
         height: 5rem;
     }
-    .card-links a{
+
+    .card-links a {
         font-size: 1.5rem;
         color: #1a1a2e;
     }
-    .projects-flex{
+
+    .projects-flex {
         flex-direction: row;
         width: 100%;
     }
-    #contact{
+
+    #contact {
         height: 70rem;
     }
-    input,textarea{
+
+    input,
+    textarea {
         width: 70%;
         font-size: 1.6rem;
         height: 6rem;
     }
-    button{
+
+    button {
         width: 20%;
         height: 5rem;
         font-size: 1.5rem;

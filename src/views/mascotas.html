@@ -1,102 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/Global.css">
-    <link rel="stylesheet" href="../css/pets/Header.css">
-    <link rel="stylesheet" href="../css/pets/Main.css">
+    <link rel="stylesheet" href="../css/pets/header.css">
+    <link rel="stylesheet" href="../css/pets/main.css">
+    <link rel="stylesheet" href="../css/pets/footer.css">
     <link rel="stylesheet" href="../css/pets/Responsives.css">
-    <title>Buy Your Pet</title>
-
+    <title>Mundo Mascotas</title>
+    
 </head>
-
 <body>
-    <header>
-        <nav class="logo">
-            <img src="../../public/icons/strong-black-labrador-dog-holding-600nw-2215291219-removebg-preview.webp"
-                alt="Gym-dog"><span>Pets</span>
-        </nav>
-        <nav class="nav_bar">
-            <a href="../../index.html">Return to portfolio</a>
-        </nav>
-    </header>
-    <main>
-        <div class="welcome">
-            <h1>Welcome to Our Pet Store</h1>
-            <p>Find your perfect companion here!</p>
-        </div>
-        <section id="pets">
-            <div class="pet-card">
-                <div class="pet-image">
-                <a href="../../public/images/dog.webp" target="_blank"> <img src="../../public/images/dog.webp"
-                        alt="Dog"> </a>
-                </div>
-                <div class="pet-info">
-                    <h2>Labrador Retriever</h2>
-                    <p>Friendly and loyal companion!</p>
-                </div>
-            </div>
-            <div class="pet-card">
-                <div class="pet-image">
-                    <a href="../../public/images/cat.webp" target="_blank"> <img src="../../public/images/cat.webp"
-                            alt="Cat"> </a>
-                </div>
-                <div class="pet-info">
-                    <h2>Siamese Cat</h2>
-                    <p>Playful and affectionate companion!</p>
-                </div>  
-            </div>
-            <div class="pet-card">
-                <div class="pet-image">
-                    <a href="../../public/images/bird.webp" target="_blank"> <img src="../../public/images/bird.webp"
-                            alt="Bird"></a>
-                </div>
-                <div class="pet-info">
-                    <h2>Parrot</h2>
-                    <p>Vocal and intelligent companion!</p>
-                </div>
-            </div>
-            <div class="pet-card">
-                <div class="pet-image">
-                    <a href="../../public/images/327acc25-9c2f-4d43-92c6-33eb1893439a.webp" target="_blank"> <img src="../../public/images/rabbit.webp"
-                            alt="Rabbit"> </a>
-                </div>
-                <div class="pet-info">
-                    <h2>White Rabbit</h2>
-                    <p>Cute and gentle companion!</p>
-                </div>
-            </div>
-            <div class="pet-card">
-                <div class="pet-image">
-                    <a href="../../public/images/hamster.webp" target="_blank"> <img src="../../public/images/hamster.webp"
-                            alt="Hamster"> </a>
-                </div>
-                <div class="pet-info">
-                    <h2>Golden Hamster</h2>
-                    <p>Small and energetic companion!</p>
-                </div>
-            </div>
 
-        </section>
+<header>
+    <h1>🐾 Mundo Mascotas</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#mascotas">Mascotas</a>
+        <a href="#contacta-nos">Contacto</a>
+        <a href="../../index.html">Portafolio</a>
+    </nav>
+</header>
 
-        <section id="contact">
-            <div class="contact-us">
-                <h2>Contact Us</h2>
-                <p>Have questions about our pets? Reach out to us!</p>
-            </div>
-            <div class="contact-form">
-                <form class="contact-form" action="" method="POST">
-                    <input type="text" id="name" name="name" required placeholder="Your name">
-                    <input type="email" id="email" name="email" required placeholder="Your email">
-                    <textarea id="message" name="message" required placeholder="Your message"></textarea>
-                    <button type="button">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
+<main>
+
+<section class="hero" id="inicio">
+    <h2>Bienvenido a Mundo Mascotas</h2>
+    <p>Encuentra información y cuidados para tus animales favoritos</p>
+</section>
+
+<section class="grid-section" id="mascotas">
+    <h2>Galería de Mascotas</h2>
+    <div class="grid-container">
+        <div class="grid-item"><img src="../../public/images/dog.webp" alt=""></div>
+        <div class="grid-item"><img src="../../public/images/cat.webp" alt=""></div>
+        <div class="grid-item"><img src="../../public/images/parrot.webp" alt=""></div>
+        <div class="grid-item"><img src="../../public/images/penguin.webp" alt=""></div>
+        <div class="grid-item"><img src="../../public/images/hamster.webp" alt=""></div>
+        <div class="grid-item"><img src="../../public/images/peces.webp" alt=""></div>
+    </div>
+</section>
+<section class="contacta-nos" id="contacta-nos">
+    <h2>Contacta con Nosotros</h2>
+    <p>¿Tienes preguntas o necesitas ayuda? ¡Contáctanos!</p>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Tu Nombre" required>
+        <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+        <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mundo Mascotas</p>
+</footer>
 
 </body>
-
 </html>
