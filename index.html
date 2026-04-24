@@ -38,17 +38,31 @@
         <section id="aboutme">
             <div class="title">
                 <h1>Greetings to all</h1><br>
-                <p>Hello, my name is Kevin Villalobos Ruiz, I am 20 years old, and I am from Barranquilla. I am
-                    currently in the learning stage of software development.
 
-                    What I like about development is that it's an area that challenges me to keep learning and improve
-                    my logic.</p>
+
+                <p id="about-text" style="display: block;  " >
+                    Hello, my name is Kevin Villalobos Ruiz, I am 20 years old, and I am from Barranquilla. I am
+                    currently in the learning stage of software development.
+                </p>
+                <p id="textChanged" style="display: none;">
+                    "What I like about development is that it's an area that challenges me to keep learning and improvemy logic."
+                </p>
+
+                
+                <button id="changeTextBtn">Change Text</button>
+                <button id="toggleBtn">Show More</button>
+
+                
+                <p id="extraText" style="display: none;">
+                    I am constantly improving my skills and learning new technologies.
+                </p>
             </div>
+
             <div class="image">
                 <img src="./public/images/profile-picture.webp" alt="Profile icon">
-
             </div>
         </section>
+
         <section id="projects">
             <div class="title">
                 <h2>Projects</h2>
@@ -69,6 +83,7 @@
                                 Details</a>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <div class="content">
                         <div class="content-img">
@@ -84,6 +99,7 @@
                                 Details</a>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <div class="content">
                         <div class="content-img">
@@ -100,8 +116,8 @@
                     </div>
                 </div>
             </div>
-
         </section>
+
         <section id="contact">
             <div class="title">
                 <h2>Contact</h2>
@@ -119,9 +135,10 @@
 
     <footer>
         <p>&copy; 2026 Kevin Ruiz. All rights reserved.</p>
-
     </footer>
 
-</body>
+    <!-- AGREGADO: script -->
+    <script src="./src/js/script.js"></script>
 
+</body>
 </html>

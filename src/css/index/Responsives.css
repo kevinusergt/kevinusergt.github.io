@@ -28,11 +28,17 @@
         font-size: 1.2rem;
     }
 
-    .project-card a {
+    .card-links a {
         height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .card-links a:hover {
+        background-color: #3f38b9;
+        color: white;
+        transition: 0.3s ease;
     }
 }
 
@@ -82,6 +88,12 @@
         font-size: 1.2rem;
     }
 
+    .project-card a:hover {
+        background-color: #3f38b9;
+        color: white;
+        transition: 0.3s ease;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -122,6 +134,7 @@
     .image img {
         margin: 0;
     }
+
     #projects {
         padding: 4rem 4%;
     }
@@ -136,6 +149,12 @@
 
     .project-card {
         width: 30%;
+    }
+
+    .card-links a:hover {
+        background-color: #3f38b9;
+        color: white;
+        transition: 0.3s ease;
     }
 
     .content {
@@ -160,7 +179,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:0;
+        padding: 0;
         width: 33%;
         height: 1.8rem;
     }
@@ -175,6 +194,18 @@
 
     #contact {
         height: 40rem;
+    }
+
+    .form input,
+    .form textarea {
+        width: 50%;
+        height: 2rem;
+    }
+
+    .form button {
+        width: 20%;
+        height: 2rem;
+        font-size: 1rem;
     }
 }
 
@@ -212,6 +243,12 @@
 
     .project-card {
         width: 33%;
+    }
+
+    .card-links a:hover {
+        background-color: #3f38b9;
+        color: white;
+        transition: 0.3s ease;
     }
 
     .content {
@@ -289,6 +326,12 @@
     .card-links a {
         font-size: 1.5rem;
         color: #1a1a2e;
+    }
+
+    .card-links a:hover {
+        background-color: #3f38b9;
+        color: white;
+        transition: 0.3s ease;
     }
 
     .projects-flex {
